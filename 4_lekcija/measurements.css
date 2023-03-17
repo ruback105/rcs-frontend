@@ -1,0 +1,40 @@
+body {
+  font-size: 8px;
+}
+
+p.px {
+  font-size: 20px;
+}
+
+.em-wrapper {
+  font-size: 10px;
+}
+
+p.em {
+  font-size: 2em;
+}
+
+p.rem {
+  font-size: 1rem;
+}
+
+.perc {
+  background-color: red;
+  height: 30%;
+  width: 200px;
+}
+
+.vh {
+  background-color: green;
+  height: 20vh;
+}
+
+.vw {
+  background-color: blue;
+  height: 200px;
+  width: 20vw;
+}
+
+#measurements {
+  height: 100vh;
+}

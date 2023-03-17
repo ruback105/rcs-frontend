@@ -1,0 +1,13 @@
+/* background, background-color, background-image, background-size, repeat, borders */
+
+#background div {
+  width: 100px;
+  height: 100px;
+  background: url("tree-736885__480.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  border: 1px dotted red;
+  border-radius: 6px;
+}

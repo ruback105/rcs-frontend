@@ -1,0 +1,14 @@
+#pseudo p {
+  font-size: 14px;
+  color: red;
+}
+
+#pseudo p:after {
+  background-image: url("./1678197219white-polar-bear.svg");
+  background-size: 20px 20px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  content: "";
+}

@@ -1,0 +1,36 @@
+#media {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+#media p {
+  font-size: 16px;
+  display: none;
+}
+
+@media screen and (min-width: 480px) {
+  #media {
+    flex-direction: row;
+    align-items: initial;
+  }
+
+  #media p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  #media p {
+    font-size: 30px;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #media p {
+    font-size: 50px;
+  }
+}
