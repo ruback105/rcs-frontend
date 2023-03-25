@@ -1,23 +1,36 @@
-// function declaration
-// arrow function
-// functions in objects
+const number1 = 9;
+const number2 = 10;
 
-// function myFunction() {
-//   console.log(this);
-// }
+// console.log(number1);
 
-// const myObject = {
-//   myMethod: myFunction,
-// };
+function add(variable1, variable2) {
+  const sumResult = variable1 + variable2;
+  return sumResult; // 19
+}
 
-// myObject.myMethod(); // logs myObject
+const newAdd = (variable1, variable2) => {
+  const sumResult = variable1 + variable2;
+  return sumResult; // 19
+};
 
-// myFunction(); // logs the global object (window in a browser)
+const shortenedNewAdd = (variable1, variable2) => variable1 + variable2;
 
-// const myObject = {
-//   myMethod: () => {
-//     console.log(this);
-//   },
-// };
+const result = add(number1, number2);
+// console.log(result);
 
-// myObject.myMethod(); // logs the global object (window in a browser)
+const print = (el) => {
+  console.log(el);
+  return el;
+};
+const array = [1, 2, 3, 4, 5, 6];
+array.forEach((el) => {
+  print(el);
+});
+array.map((el) => {
+  return el * 2;
+});
+
+[<p>Andris</p>, <p>Toms</p>, <p>Rihards</p>];
+
+// 1 - no kā mēs atņemsim, 2 - ko mēs atņēmsim
+// (100,25)   75
