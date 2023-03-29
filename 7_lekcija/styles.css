@@ -1,0 +1,9 @@
+.active-heading {
+  font-size: 26px;
+  font-weight: 700;
+  color: yellow;
+}
+
+li > span {
+  cursor: pointer;
+}
